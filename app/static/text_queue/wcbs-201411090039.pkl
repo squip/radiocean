@@ -1,0 +1,25 @@
+(dp1
+S'text'
+p2
+Varraignment will get the traffic and weather together in a minute the average New Yorker getting Ebola are extremely slim Ebola can only be spread to jaw contact the body fluids of an infected person while they have symptoms Ebola    what's the catch to which we account Edison would reply there is not enough  draw on the radio personality wake up with Carson Daly   radio.com hi this is dr. Mary Bassett New York City Health Commissioner New York taking aggressive steps to combat Ebola it's important to know the chances
+p3
+sS'station'
+p4
+S'wcbs'
+p5
+sS'time'
+p6
+cdatetime
+datetime
+p7
+(S'\x07\xde\x0b\t\x00(\x02\x00\x00\x00'
+tRp8
+sS'file'
+p9
+S'wcbs-201411090039.mp3'
+p10
+sS'id_semgent'
+p11
+S'201411090039'
+p12
+s.

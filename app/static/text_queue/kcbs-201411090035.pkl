@@ -1,0 +1,25 @@
+(dp1
+S'text'
+p2
+Vofficials next week Anna Duckworth KCBS San Suu only really hear about during drought years send back into the hydrant and that would affect the residents that are feeding off of that system Allen said the district borders   the KCBS San Francisco is giving a helping hand to the Philippines Port Authority has KCBS Goldsby reports Toby stringent regulations in the meantime the Port of San Francisco has jumped out of the nearly 600 ports Manila being the biggest to its list of sister ports around the world does mark Selig has more on the increase in water theft in the east band with local water officials are doing about it she doesn't have the exact       
+p3
+sS'station'
+p4
+S'kcbs'
+p5
+sS'time'
+p6
+cdatetime
+datetime
+p7
+(S'\x07\xde\x0b\t\x00$\x02\x00\x00\x00'
+tRp8
+sS'file'
+p9
+S'kcbs-201411090035.mp3'
+p10
+sS'id_semgent'
+p11
+S'201411090035'
+p12
+s.

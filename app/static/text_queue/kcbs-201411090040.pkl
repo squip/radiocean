@@ -1,0 +1,25 @@
+(dp1
+S'text'
+p2
+V   should be sonenclare tomorrow with highs ranging from the sixties that the beaches upper seventies for the inland areas traffic  juicy big during our lowest prices of the season we've been helping people rest easy for more than 45 years missing you sleep  after the new tower just the three lifelines are blackout CHP has reopened the two right lanes thereafter new tower and they were all closed due to a head on collision multiple vehicles involved in this traffic extremely slow right now heading out of San Francisco actually backed up on the 101 northbound from Shabbos 80 westbound slow heading out of the toll plaza to looky-loos want to see what's happening on the eastbound side that's a  ed before the tunnel nudist all vehicles in the right lane to make a run out of gas and the bridge Patrol  
+p3
+sS'station'
+p4
+S'kcbs'
+p5
+sS'time'
+p6
+cdatetime
+datetime
+p7
+(S'\x07\xde\x0b\t\x00)\x03\x00\x00\x00'
+tRp8
+sS'file'
+p9
+S'kcbs-201411090040.mp3'
+p10
+sS'id_semgent'
+p11
+S'201411090040'
+p12
+s.
