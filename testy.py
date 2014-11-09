@@ -19,7 +19,6 @@ from pymongo import MongoClient
 conn = pymongo.Connection()
 db = conn.radioscribe
 db.transcribed_segments
-#db.transcribed_partitions
 
 station = sys.argv[1]
 fileparts = timeshift.main(station, '/usr/local/bin/timeshift.conf')
@@ -28,7 +27,7 @@ filenames = segment_partition.partition_track(file)
 filenames = [os.path.basename(f) for f in filenames]
 #indir = '/home/essorensen/radioscribe/app/static/audio_segment_partitions'
 output = multiprocessing.Queue()
- 
+
 #for root, dirs, filenames in os.walk(indir):
 filenames = sorted(filenames)
 pool = ThreadPool(15)
