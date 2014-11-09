@@ -39,7 +39,6 @@ for segment, text in results:
 
 for k,v in transcribed_segments.iteritems():
     original_path = '/home/essorensen/radioscribe/app/static/audio_segments/' + station + '-' + str(segment) + '.mp3'
-#    pickle_path = '/home/essorensen/radioscribe/app/static/text_queue/' + station + '-' + str(segment) + '.pkl'
     created_time = time.ctime(os.path.getctime(original_path))
     created_time = parser.parse(created_time)
     text = ' '.join(v)
@@ -49,8 +48,6 @@ for k,v in transcribed_segments.iteritems():
     segment_transcribe_doc['time'] = created_time
     segment_transcribe_doc['station'] = station
     segment_transcribe_doc['file'] = os.path.basename(file)
-#    with open(pickle_path, 'wb') as segment_record:
-#        pickle.dump(segment_transcribe_doc, segment_record)
     db.transcribed_segments.insert(segment_transcribe_doc)
 
 
