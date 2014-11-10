@@ -6,3 +6,4 @@
 *.swp
 nohup.out
 *.pkl
+.DS_STORE
