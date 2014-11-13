@@ -18,7 +18,8 @@ from dateutil import parser
 import pymongo
 from pymongo import MongoClient
 
-conn = pymongo.Connection()
+
+conn = pymongo.Connection(max_pool_size=None)
 db = conn.radioscribe
 db.transcribed_segments
 
@@ -30,7 +31,7 @@ filenames = [os.path.basename(f) for f in filenames]
 output = multiprocessing.Queue()
 
 filenames = sorted(filenames)
-pool = ThreadPool(15)
+pool = ThreadPool(7)
 results = pool.map(transcribe.transcriber, filenames)
 transcribed_segments = defaultdict(list)
 for segment, text in results:
