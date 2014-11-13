@@ -4,6 +4,6 @@
 *#
 *.pyc
 *.swp
-nohup.out
 *.pkl
+nohup.out
 .DS_STORE
