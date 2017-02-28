@@ -1,0 +1,12 @@
+<html>
+
+  <div>suckas:
+      {% if text_results %}
+<div id="ticker" style="margin-left:70px;">
+<ul id="tickerlist">
+{% for t in text_results %}
+<li class="tick" style="font-size:15px;" >{{t}}</li>
+{% endfor %}
+{% endif %}
+  </div>
+</html>

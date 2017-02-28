@@ -1,0 +1,150 @@
+0,                          pain, 0.303195,10
+0,                  fibromyalgia, 0.171178,10
+0,                pain arthritis, 0.171178,10
+0,                  chronic pain, 0.171178,10
+0,                       chronic, 0.171178,10
+0,                     arthritis, 0.171178,10
+0,        chronic pain arthritis, 0.171178,10
+0,                  does chronic, 0.146724,10
+0,             does chronic pain, 0.146724,10
+0,    fibromyalgia keeping awake, 0.12227,10
+1,                       culture, 0.200964,13
+1,               culture section, 0.200964,13
+1,                         local, 0.195968,13
+1,                          best, 0.194449,13
+1,                      saturday, 0.18706,13
+1,                     afternoon, 0.18706,13
+1,            saturday afternoon, 0.18706,13
+1,                       section, 0.183647,13
+1,                     best arts, 0.172255,13
+1,                          arts, 0.172255,13
+2,                         local, 0.268799,26
+2,                     cbs local, 0.245462,26
+2,                          best, 0.232847,26
+2,                 cbs local com, 0.17046,26
+2,                     local com, 0.17046,26
+2,               stuff cbs local, 0.14747,26
+2,                     stuff cbs, 0.14747,26
+2,               culture section, 0.144389,26
+2,                       culture, 0.144389,26
+2,                       section, 0.139708,26
+3,                      peterson, 0.15467,12
+3,                 roger goodell, 0.132575,12
+3,                       goodell, 0.132575,12
+3,                         roger, 0.132575,12
+3,                  commissioner, 0.115119,12
+3,            commissioner roger, 0.110479,12
+3,    commissioner roger goodell, 0.110479,12
+3,                         month, 0.110479,12
+3,                           nfl, 0.0959323,12
+3,                   star adrian, 0.0883831,12
+4,                         local, 0.326547,18
+4,               local bookstore, 0.256716,18
+4,                     bookstore, 0.229275,18
+4,                       reading, 0.218209,18
+4,       reading local bookstore, 0.218209,18
+4,                 reading local, 0.218209,18
+4,                     cbs local, 0.146483,18
+4,                     local com, 0.146483,18
+4,                 cbs local com, 0.146483,18
+4,       saturday afternoon long, 0.120134,18
+5,                       soldier, 0.165464,11
+5,                thursday night, 0.165464,11
+5,                 soldier field, 0.165464,11
+5,                         field, 0.161529,11
+5,                      thursday, 0.15848,11
+5,                       cowboys, 0.152736,11
+5,                       jeffrey, 0.142625,11
+5,                 night soldier, 0.140008,11
+5,        thursday night soldier, 0.140008,11
+5,           night soldier field, 0.140008,11
+6,                          step, 0.134426,24
+6,                          city, 0.107967,24
+6,                          says, 0.103208,24
+6,                       minimum, 0.0978711,24
+6,                  minimum wage, 0.0978711,24
+6,                          wage, 0.0978711,24
+6,                      increase, 0.0978711,24
+6,                         years, 0.0950359,24
+6,                           say, 0.0826475,24
+6,        recommended methodical, 0.0774047,24
+7,                          best, 0.275158,12
+7,                     cbs local, 0.241721,12
+7,                         local, 0.233763,12
+7,                    best stuff, 0.205073,12
+7,                best stuff cbs, 0.205073,12
+7,                     stuff cbs, 0.191777,12
+7,               stuff cbs local, 0.191777,12
+7,                         stuff, 0.179639,12
+7,                       section, 0.175101,12
+7,                     local com, 0.168472,12
+8,            saturday afternoon, 0.257955,18
+8,                      saturday, 0.257955,18
+8,                     afternoon, 0.257955,18
+8,    afternoon section saturday, 0.254829,18
+8,        com saturday afternoon, 0.214145,18
+8,                  com saturday, 0.214145,18
+8,            local com saturday, 0.214145,18
+8,             afternoon section, 0.204896,18
+8,    saturday afternoon section, 0.204896,18
+8,                    best stuff, 0.182468,18
+9,                      business, 0.177315,25
+9,                         radio, 0.125592,25
+9,                   marketwatch, 0.09538,25
+9,               marketwatch com, 0.09538,25
+9,                            25, 0.086461,25
+9,                     radio com, 0.0817543,25
+9,                 business news, 0.0763419,25
+9,                  55 past hour, 0.0703343,25
+9,                       news 25, 0.0703343,25
+9,                         25 55, 0.0703343,25
+10,                           low, 0.105363,41
+10,                        cloudy, 0.0867301,41
+10,                         right, 0.0858562,41
+10,                       kennedy, 0.0852351,41
+10,                            20, 0.0852351,41
+10,                       inbound, 0.0846249,41
+10,                       tonight, 0.081251,41
+10,                       minutes, 0.0767116,41
+10,                   accuweather, 0.0752222,41
+10,                          area, 0.0752222,41
+11,                       minimum, 0.237855,17
+11,                  minimum wage, 0.226529,17
+11,                          wage, 0.226529,17
+11,                          city, 0.162433,17
+11,                          hour, 0.133905,17
+11,                       13 hour, 0.12601,17
+11,                  wage 13 hour, 0.112009,17
+11,               minimum wage 13, 0.112009,17
+11,                       wage 13, 0.112009,17
+11,                  chicago city, 0.112009,17
+12,                            tv, 0.171563,14
+12,                           lcd, 0.153672,14
+12,                           tvs, 0.153672,14
+12,                        market, 0.136094,14
+12,                          true, 0.0953129,14
+12,                      true lcd, 0.0878125,14
+12,                tried true lcd, 0.0878125,14
+12,            version tried true, 0.0878125,14
+12,          latest version tried, 0.0878125,14
+12,                          roku, 0.0878125,14
+13,                         bears, 0.18924,7
+13,                       cowboys, 0.151984,7
+13,                        injury, 0.11481,7
+13,                        course, 0.113538,7
+13,                    bears beat, 0.0980655,7
+13,              jeremiah ratliff, 0.0851534,7
+13,                       ratliff, 0.0851534,7
+13,                      jeremiah, 0.0851534,7
+13,                          beat, 0.0851534,7
+13,                         going, 0.0841066,7
+14,                     afternoon, 0.26333,38
+14,            saturday afternoon, 0.257478,38
+14,                      saturday, 0.257478,38
+14,                         local, 0.187257,38
+14,                     cbs local, 0.174562,38
+14,                     local com, 0.162093,38
+14,                 cbs local com, 0.162093,38
+14,                best stuff cbs, 0.136598,38
+14,                    best stuff, 0.136598,38
+14,               stuff cbs local, 0.134838,38

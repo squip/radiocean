@@ -1,0 +1,64 @@
+ <html>
+   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/static/images/favicon.ico">
+
+    
+    <meta name="title" content="Flat Startup Bootstrap Theme by The Pete Design" />
+    <meta name="description" content="Flat UI Startup Theme for Boostrap Framework created by The Pete Design" />
+    <link rel="image_src" href="/static//images/flat_startup_theme_image.jpg" />
+
+    
+    
+    <link rel="stylesheet" href="/static/css/animate.css">
+    <meta name="HandheldFriendly" content="true" />
+  
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/theme.css">
+    <link rel="stylesheet" href="/static/css/searchbar.css">
+    <link rel="stylesheet" href="/static/css/player.css">
+    <link rel="stylesheet" href="/static/css/glowsearch.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div class= "steve" style="color:black; font-weight:bold; font-size:16px;">
+        <ul>
+        {% for t in text_results %}
+            <li>{{ t }} </li>
+        {% endfor %}
+        </ul>
+       </div>
+<!--   <form action="" method="post" name="login">
+      {{ form.hidden_tag() }}
+      <p>
+          Please enter your search term:<br>
+          {{ form.search(size=80) }}<br>
+          {% for error in form.search.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+          {% endfor %}<br>
+      </p>
+      <p><input type="submit" value="Sign In"></p>
+  </form> -->
+
+
+                <div class="container" style=" width:56%; margin-top:10px;">
+                <section class="webdesigntuts-workshop">
+                  <form action=""  method="post" name="login">
+                  	{{ form.hidden_tag() }}
+                  {{ form.search(size=80,type='search', placeholder='What do you want to hear') }}        
+                    <button type="submit" value="Sign In">Search</button>
+                  </form>
+                </section>
+              </div>
+       </body>
+  </html>

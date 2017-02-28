@@ -13,6 +13,7 @@ from datetime import datetime
 import time
 from time import mktime
 from pydub import AudioSegment
+from pydub.exceptions import CouldntDecodeError
 import speech_recognition as sr
 from dateutil import parser
 import pymongo
@@ -70,8 +71,13 @@ class TranscribeStream(object):
         '''
         track_file_name, fileExtension = os.path.splitext(track_file)
         track_file_base = os.path.basename(track_file_name)
-        sound = AudioSegment.from_mp3(track_file)
-        segments = range(1,16)
+	try:
+            sound = AudioSegment.from_mp3(track_file)
+        except CouldntDecodeError as e:# CouldntDecodeError as e:
+           print "Couldn't decode %s" % track_file
+           print e
+           return []
+	segments = range(1,16)
         segment_lengths = []
         segment = len(sound) / 15
 

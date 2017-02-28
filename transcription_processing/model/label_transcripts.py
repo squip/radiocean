@@ -9,7 +9,7 @@ conn = pymongo.Connection()
 db = conn.radioscribe
 db.transcribed_segments
 
-model = joblib.load('trained_naive_bayes.pkl')
+model = joblib.load('/home/essorensen/radioscribe/transcription_processing/model/trained_naive_bayes.pkl')
 
 # from sklearn.feature_extraction.text import CountVectorizer                                                                                                            
 # from sklearn.pipeline import Pipeline                                                                                                                                  

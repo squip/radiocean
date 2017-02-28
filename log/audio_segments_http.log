@@ -1,0 +1,694 @@
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/lib/python2.7/SimpleHTTPServer.py", line 230, in <module>
+    test()
+  File "/usr/lib/python2.7/SimpleHTTPServer.py", line 226, in test
+    BaseHTTPServer.test(HandlerClass, ServerClass)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 595, in test
+    httpd = ServerClass(server_address, HandlerClass)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/lib/python2.7/SimpleHTTPServer.py", line 230, in <module>
+    test()
+  File "/usr/lib/python2.7/SimpleHTTPServer.py", line 226, in test
+    BaseHTTPServer.test(HandlerClass, ServerClass)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 595, in test
+    httpd = ServerClass(server_address, HandlerClass)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/lib/python2.7/SimpleHTTPServer.py", line 230, in <module>
+    test()
+  File "/usr/lib/python2.7/SimpleHTTPServer.py", line 226, in test
+    BaseHTTPServer.test(HandlerClass, ServerClass)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 595, in test
+    httpd = ServerClass(server_address, HandlerClass)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/lib/python2.7/SimpleHTTPServer.py", line 230, in <module>
+    test()
+  File "/usr/lib/python2.7/SimpleHTTPServer.py", line 226, in test
+    BaseHTTPServer.test(HandlerClass, ServerClass)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 595, in test
+    httpd = ServerClass(server_address, HandlerClass)
+  File "/usr/lib/python2.7/SocketServer.py", line 419, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 430, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Serving HTTP on 0.0.0.0 port 8000 ...
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 57617)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 57619)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 57758)
+73.170.90.157 - - [06/Feb/2016 22:15:47] "GET /wcbs-201602061547.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:15:49] "GET /wcbs-201602060339.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:15:50] "GET /wcbs-201602061223.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:15:52] "GET /wcbs-201602061848.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:15:53] "GET /wcbs-201602061952.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:15:55] "GET /wcbs-201602061547.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:16:21] "GET /kcbs-201602060802.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:16:24] "GET /wcbs-201602060929.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:16:29] "GET /kcbs-201602060802.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:16:35] "GET /wcbs-201602061234.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:16:39] "GET /wbbm-201602061702.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:16:41] "GET /wcbs-201602062001.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:16:42] "GET /wbbm-201602061702.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:17:00] "GET /wbbm-201602061523.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:17:02] "GET /wbbm-201602060801.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:17:05] "GET /wbbm-201602061018.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:17:08] "GET /wcbs-201602060401.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:17:12] "GET /wbbm-201602062001.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:17:18] "GET /wbbm-201602061018.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:17:19] "GET /wbbm-201602061523.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:17:21] "GET /wcbs-201602062001.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:17:38] "GET /kcbs-201602061936.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:17:47] "GET /kcbs-201602061936.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:17:51] "GET /kcbs-201602060949.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:17:52] "GET /kcbs-201602061735.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:18:05] "GET /kcbs-201602060938.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:18:06] "GET /kcbs-201602061721.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:18:08] "GET /kcbs-201602061936.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:18:15] "GET /wcbs-201602062053.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:19:27] "GET /kcbs-201602060938.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:20:56] "GET /kcbs-201602061735.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:21:14] "GET /wcbs-201602060847.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:21:15] "GET /wcbs-201602060713.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:34:14] "GET /kcbs-201602060752.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:34:16] "GET /kcbs-201602060752.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 22:55:03] "GET /wcbs-201602061547.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 22:55:05] "GET /wcbs-201602061547.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 23:16:49] "GET /wcbs-201602062240.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 23:16:50] "GET /wcbs-201602062240.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 23:23:23] "GET /wcbs-201602061547.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 23:23:24] "GET /wcbs-201602061547.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 23:23:26] "GET /wcbs-201602061547.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 23:23:30] "GET /wcbs-201602061049.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 23:23:31] "GET /wcbs-201602061049.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 23:23:32] "GET /wcbs-201602061049.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 23:23:34] "GET /wcbs-201602061049.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 23:23:36] "GET /wcbs-201602061049.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 23:23:37] "GET /wcbs-201602061049.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 23:41:37] "GET /wcbs-201602062240.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 23:41:40] "GET /wcbs-201602062240.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 23:48:10] "GET /wbbm-201602061125.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 23:48:27] "GET /wcbs-201602060847.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 23:50:41] "GET /wbbm-201602061229.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [06/Feb/2016 23:53:28] "GET /wcbs-201602060930.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [06/Feb/2016 23:53:32] "GET /wcbs-201602060531.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:00:03] "GET /wbbm-201602061229.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [07/Feb/2016 00:00:04] "GET /wbbm-201602061758.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:03:03] "GET /kcbs-201602060752.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:03:04] "GET /kcbs-201602061728.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:07:52] "GET /kcbs-201602061651.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:07:56] "GET /kcbs-201602061651.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:07:58] "GET /kcbs-201602061651.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:08:03] "GET /kcbs-201602061320.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:08:05] "GET /kcbs-201602061320.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [07/Feb/2016 00:08:05] "GET /kcbs-201602061320.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:08:08] "GET /kcbs-201602062111.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:08:11] "GET /kcbs-201602060620.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:08:17] "GET /kcbs-201602062051.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:34:27] "GET /wcbs-201602062100.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:34:29] "GET /wcbs-201602062100.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:39:51] "GET /wbbm-201602061229.mp3 HTTP/1.1" 200 -
+Serving HTTP on 0.0.0.0 port 8000 ...
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 58903)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 58905)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 58908)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 58913)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 58914)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 58919)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 58922)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 58923)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 58924)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 58934)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 58936)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 58937)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 59104)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 59289)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 59391)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 59455)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 49810)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 48291)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 49815)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 45563)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 41144)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 59621)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 59727)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 59789)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('73.170.90.157', 59848)
+----------------------------------------
+----------------------------------------
+Exception happeneTraceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [07/Feb/2016 00:39:53] "GET /wbbm-201602061758.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:47:48] "GET /kcbs-201602060752.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 00:47:50] "GET /kcbs-201602061157.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 01:19:46] "GET /wcbs-201602061547.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [07/Feb/2016 01:19:47] "GET /wcbs-201602061547.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 02:11:45] "GET /wcbs-201602062240.mp3 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 653, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 712, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+73.170.90.157 - - [07/Feb/2016 02:11:47] "GET /wcbs-201602062240.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 02:33:54] "GET /wbbm-201602061229.mp3 HTTP/1.1" 200 -
+73.170.90.157 - - [07/Feb/2016 03:13:59] "GET /wcbs-201602062240.mp3 HTTP/1.1" 200 -

@@ -1,0 +1,44 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="static/css/demo.css">
+    <script type="text/javascript" src="static/js/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="static/jquery-jplayer/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="static/js/ttw-music-player-min.js"></script>
+</head>
+<body>
+  <div>
+      {% if results %}
+    <script type="text/javascript">
+    $(document).ready(function(){
+            
+            $('body').ttwMusicPlayer(myPlaylist, {
+                autoPlay:false, 
+                jPlayer:{
+                    swfPath:'static/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
+                }
+            });
+        });
+    var myPlaylist = [
+
+    {% for id in results %}
+    {
+
+        mp3:'http://4983.live.streamtheworld.com:80/KCBSAM_SC',
+        title:{{id}},
+        artist:{{id}},
+        rating:4,
+        buy:'#',
+        price:'0.99',
+        duration:'0:30',
+        cover:'mix/1.png'
+    },
+
+    {% endfor %}
+];
+        
+        </script>
+{% endif %}
+  </div>
+</body>
+</html>

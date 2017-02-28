@@ -1,0 +1,212 @@
+<html><head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/static/css/core-styles-bundle.css">
+       <link rel="stylesheet" type="text/css" href="/static/css/new_playlist_style.css">
+    <style>
+    div.hidden
+{
+    display: none
+}
+	</style>
+    
+    <script type="text/javascript" src="static/js/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="static/jquery-jplayer/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="static/js/ttw-music-player.js"></script>
+    <script>
+    $(document).ready(function () {
+    $('div.hidden').fadeIn(2000).removeClass('hidden');
+});
+    </script>
+    <script>       
+
+
+                                                                                                          
+    function loadXMLDoc()                                                                                                  
+    {                                                                                                                      
+        var req = new XMLHttpRequest()                                                                                     
+        req.onreadystatechange = function()                                                                                
+        {                                                                                                                  
+            if (req.readyState == 4)                                                                                       
+            {                                                                                                              
+                if (req.status != 200)                                                                                     
+                {                                                                                                          
+                    //error handling code here                                                                             
+                }                                                                                                          
+                else                                                                                                       
+                {                                                                                                 
+        
+                    var response = JSON.parse(req.responseText)
+                    console.log(response)
+                    var myPlaylist = []
+                    var segments_str = ""
+                    response.matches.forEach( function(match, index){
+                      // segments_str += "<p>" + match + "</p><br>";
+                      segments_str = {
+                                        mp3:'http://162.243.83.70:8000/' + match['file'],
+                                        title: new Date(match['time']).toString().substring(0, 24),
+                                        artist:match['station'].toUpperCase(),
+                                        track:match['station'],
+                                        rating:4,
+                                        buy:'#',
+                                        duration:match['text'].substring(0, 90)+'...',
+                                        //cover:'mix/1.png'
+                                    }
+                    myPlaylist.push(segments_str);
+                    index2second[index] = match['id_part'] * 4;
+                      
+                    })
+                   console.log(myPlaylist)
+
+                    // document.getElementById('myDiv').innerHTML = myPlaylist
+                   $(document).ready(function(){
+                            $('#top').fadeOut(1000, function(){
+    						$('#top').empty();});
+                            // $('#top').empty();
+                            $('#search_term').empty();
+                            var div = document.createElement('div');
+
+                            div.className = 'row';
+
+                            div.innerHTML = 'Search Results for ' + "<span class='type-label'>" + document.getElementById('scname').value; + "</span>"
+
+                             document.getElementById('search_term').appendChild(div);
+                            $('#myDiv').empty();
+                            $('#myDiv').ttwMusicPlayer(myPlaylist, {
+                                autoPlay:true, 
+                                jPlayer:{
+                                    swfPath:'static/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
+                                }
+                           
+                            //$myJplayer = $('.ttw-music-player .jPlayer-container');
+                            //$myJplayer.bind($.jPlayer.event.canplay, function(event) {
+                            //     event.jPlayer.status.currentTime =10; })
+                            //$('#jp_audio_1').bind('canplay', function() {
+                            //         this.currentTime = 10; // jumps to 29th secs
+                            //                      });
+                            });
+                        });        
+                }                                                                                                 
+            }                                                                                                              
+        }                                                                                                                  
+                                                                                                                           
+        req.open('POST', '/ajax')                                                                                          
+        req.setRequestHeader("Content-type", "application/x-www-form-urlencoded")                                          
+        var un = document.getElementById('scname').value                                                                   
+        var un = document.getElementById('scname').value
+
+// function addRow() {
+// 				    var div = document.createElement('div');
+
+// 				    div.className = 'row';
+
+// 				    div.innerHTML = 'Search Results for' + document.getElementById('scname').value;
+
+// 				     document.getElementById('search_term').appendChild(div);
+// 				}     
+				                                                                       
+        var postVars = 'username='+un                                  
+        req.send(postVars)
+                                                                                                      
+                                                                                                                           
+        return false                                                                                                       
+    }      
+
+$("li.track").click(function(){
+    
+    console.log("hey");
+    $("audio").currentTime = 50;
+    
+
+});
+
+
+                                                                                                           
+</script> 
+<script type="text/javascript">
+        $(document).ready(function() {
+            var eT=0;
+            $('.everything').hide().each(function() {
+                $(this).delay(eT).fadeIn('slow');
+                eT += 500;
+            });
+            $('.everything').click(function() {
+                $('.everything').stop(true,true).fadeIn();
+            });
+        });
+    </script>
+    <style type="text/css">
+        li.everything {font-size:40px;font-weight:normal;color:white;}
+    </style>
+
+
+  </head>
+
+  <body><header>
+    <div class="container clearfix">
+
+
+<div id="headerAcct" class="fl-r ">
+    <div class="anchors"><a class="login-button _accountIframe" data-target="authModal" href="#" data-width="900" data-height="750" data-hijax="false"></a><span class="bullet"></span><a class="signup-button _accountIframe" href="#" data-target="authModal" data-width="900" data-height="750" data-hijax="false"><span class="divider"></span></a></div>
+</div>
+
+
+	<a href="/"><div class="logo-cont fl-l" style="font-weight:bold;margin-top:10;margin-left:10;font-size:22;color:white;">Radiocean</div>
+	</a>
+
+
+
+<ul id="mainNav" class="nav clearfix fl-l">
+    <li class="local_radio"><a href=""></a></li>
+</ul>
+
+    <div class="search-cont  fl-r">
+    <form class="searchForm clearfix" action="" method="post" >
+        <input type="text" class="search-input fl-l" placeholder="Search" name="scname" id="scname">
+        <input type="submit" class="fl-l search-button" onclick="return loadXMLDoc()">
+    </form>
+    </div>
+
+</div>
+</div>
+       <div id="search_term" style="color:black; font-size:37px; margin-left:10;margin-top:40;">
+</div>
+    <div class="show_playlist" style="color:black; margin-left:1;margin-top:10;"id="myDiv">
+    </div>    
+</header>
+
+
+
+     
+<div id="top" class="jumbotron">
+      <div class="fus-bg" ></div>
+      <div class="fus-overlay"></div>
+      <div class="container" >
+<!-- 
+        <div class="fus-pitch">
+          <div class="fus-call-to-action" style="font-weight:bold;">
+			<div class="hidden" style="font-weight:bold;">
+            <h1>Search news radio broadcasts</h1>
+            <h2>for any topic, in real time</h2>
+  			</div> -->
+
+  			<div>
+  				<ul>
+        <li class="everything" style="color: black;"> > search live news radio broadcasts.</li>
+        <li class="everything" style="color:black;"> > for any topic.</li>
+        <li class="everything" style="color:black;"> > in real time.</li>
+    </ul>
+    	</div>
+              </div>
+          </div>
+        <!-- </div>
+      </div>
+    </div> -->
+ <!--     <div class="show_playlist" style="color:black; margin-left:1;margin-top:50;"id="myDiv">
+	</div>   -->   
+
+
+</body>
+
+
+
+</html>

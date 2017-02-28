@@ -1,0 +1,121 @@
+ <html>
+   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/static/images/favicon.ico">
+
+    
+    <meta name="title" content="Flat Startup Bootstrap Theme by The Pete Design" />
+    <meta name="description" content="Flat UI Startup Theme for Boostrap Framework created by The Pete Design" />
+    <link rel="image_src" href="/static//images/flat_startup_theme_image.jpg" />
+
+    
+    
+    <link rel="stylesheet" href="/static/css/animate.css">
+    <meta name="HandheldFriendly" content="true" />
+  
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="/static/css/searchbar.css">
+
+    <link rel="stylesheet" href="/static/css/player.css">
+    <link rel="stylesheet" href="/static/css/glowsearch.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/demo.css">
+
+    
+    <script type="text/javascript" src="static/js/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="static/jquery-jplayer/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="static/js/ttw-music-player-min.js"></script>
+
+
+
+<script>       
+
+
+                                                                                                          
+    function loadXMLDoc()                                                                                                  
+    {                                                                                                                      
+        var req = new XMLHttpRequest()                                                                                     
+        req.onreadystatechange = function()                                                                                
+        {                                                                                                                  
+            if (req.readyState == 4)                                                                                       
+            {                                                                                                              
+                if (req.status != 200)                                                                                     
+                {                                                                                                          
+                    //error handling code here                                                                             
+                }                                                                                                          
+                else                                                                                                       
+                {                                                                                                          
+                    var response = JSON.parse(req.responseText)
+                    console.log(response)
+                    var myPlaylist = []
+                    var segments_str = ""
+                    response.matches.forEach( function(match){
+                      // segments_str += "<p>" + match + "</p><br>";
+                      segments_str = {
+                                        mp3:'mix/1.mp3',
+                                        oga:'mix/1.ogg',
+                                        title: match['obj']['time'] + match['obj']['id_semgent'],
+                                        artist:'Sample',
+                                        rating:4,
+                                        buy:'#',
+                                        price:'0.99',
+                                        duration:'0:30',
+                                        cover:'mix/1.png'
+                                    }
+                    myPlaylist.push(segments_str);
+                      
+                    })
+                   console.log(myPlaylist)
+
+                    // document.getElementById('myDiv').innerHTML = myPlaylist
+                   $(document).ready(function(){
+                            
+                            $('#myDiv').empty();
+                            $('#myDiv').ttwMusicPlayer(myPlaylist, {
+                                autoPlay:false, 
+                                jPlayer:{
+                                    swfPath:'static/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
+                                }
+                            });
+                        });        
+                }                                                                                                          
+            }                                                                                                              
+        }                                                                                                                  
+                                                                                                                           
+        req.open('POST', '/ajax')                                                                                          
+        req.setRequestHeader("Content-type", "application/x-www-form-urlencoded")                                          
+        var un = document.getElementById('scname').value                                                                   
+        var un = document.getElementById('scname').value                                                                   
+        var sec = document.getElementById('secret').value                                                                  
+        var postVars = 'username='+un+'&secret='+sec                                                             
+        req.send(postVars)                                                                                                 
+                                                                                                                           
+        return false                                                                                                       
+    }                                                                                                                 
+</script> 
+
+
+
+  </head>
+
+  <body>
+
+
+
+                <div class="container" style=" width:56%; margin-top:10px;position:absolute;">
+                <section class="webdesigntuts-workshop" style="position:relative;">
+
+                  <form action=""  method="post" name="login">
+                    <input type="text" name="scname" id="scname">                                                                              
+                    <input type="hidden" name="secret" id="secret" value="shhh">                                                               
+                    <button type="submit" value="Sign In" onclick="return loadXMLDoc()">Search</button>
+                  </form>
+                </section>
+              </div>
+       <div class="felix" style="color:black; margin-left:100;position:absolute;margin-top:40;"id="myDiv"></div>     
+       </body>
+  </html>
